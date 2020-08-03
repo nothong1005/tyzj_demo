@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b68f58c6-d5b7-4eb3-bd20-6536f6827d17" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zt37x6HHFgQG9eThO9vldmTPpx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.segmentfault.springbootlesson11.serizer" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.segmentfault.springbootlesson11.consumer" />
+      <recent name="com.segmentfault.springbootlesson11.controller" />
+      <recent name="com.segmentfault.springbootlesson11.job" />
+      <recent name="com.segmentfault.springbootlesson11.repository" />
+      <recent name="com.segmentfault.springbootlesson11.Entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\工作资料\spring-boot-demo\src\main\java\com\segmentfault\springbootlesson11" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.segmentfault.springbootlesson11.Main" />
+      <module name="spring-boot-lesson-11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.segmentfault.springbootlesson11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.segmentfault.springbootlesson11.ProducerTest" />
+      <module name="spring-boot-lesson-11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.segmentfault.springbootlesson11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootLesson11Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-lesson-11" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.duanli.demo.SpringBootLesson11Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootLesson11Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-lesson-11" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.segmentfault.springbootlesson11.SpringBootLesson11Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ProducerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b68f58c6-d5b7-4eb3-bd20-6536f6827d17" name="Default Changelist" comment="" />
+      <created>1585644399526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585644399526</updated>
+      <workItem from="1585644405443" duration="16672000" />
+      <workItem from="1585809339608" duration="63000" />
+      <workItem from="1586071744039" duration="21000" />
+      <workItem from="1594861331240" duration="111000" />
+      <workItem from="1594861501055" duration="253000" />
+      <workItem from="1594951591763" duration="2391000" />
+      <workItem from="1595811914051" duration="42000" />
+      <workItem from="1595816249910" duration="76000" />
+      <workItem from="1595829469452" duration="2916000" />
+      <workItem from="1595843063490" duration="364000" />
+      <workItem from="1595897312592" duration="6521000" />
+      <workItem from="1595991255819" duration="3586000" />
+      <workItem from="1596091656823" duration="4989000" />
+      <workItem from="1596158437943" duration="2605000" />
+      <workItem from="1596416125475" duration="7068000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="474" y="18" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596160891671">
+      <screen x="72" y="0" width="1296" height="912" />
+    </state>
+    <state x="474" y="18" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.0.1296.912@72.0.1296.912" timestamp="1596160891671" />
+    <state x="501" y="211" key="FileChooserDialogImpl" timestamp="1596417163377">
+      <screen x="72" y="0" width="1296" height="912" />
+    </state>
+    <state x="501" y="211" key="FileChooserDialogImpl/72.0.1296.912@72.0.1296.912" timestamp="1596417163377" />
+    <state width="1253" height="181" key="GridCell.Tab.0.bottom" timestamp="1596436288763">
+      <screen x="72" y="0" width="1296" height="912" />
+    </state>
+    <state width="1253" height="181" key="GridCell.Tab.0.bottom/72.0.1296.912@72.0.1296.912" timestamp="1596436288763" />
+    <state width="1253" height="181" key="GridCell.Tab.0.center" timestamp="1596436288763">
+      <screen x="72" y="0" width="1296" height="912" />
+    </state>
+    <state width="1253" height="181" key="GridCell.Tab.0.center/72.0.1296.912@72.0.1296.912" timestamp="1596436288763" />
+    <state width="1253" height="181" key="GridCell.Tab.0.left" timestamp="1596436288763">
+      <screen x="72" y="0" width="1296" height="912" />
+    </state>
+    <state width="1253" height="181" key="GridCell.Tab.0.left/72.0.1296.912@72.0.1296.912" timestamp="1596436288763" />
+    <state width="1253" height="181" key="GridCell.Tab.0.right" timestamp="1596436288763">
+      <screen x="72" y="0" width="1296" height="912" />
+    </state>
+    <state width="1253" height="181" key="GridCell.Tab.0.right/72.0.1296.912@72.0.1296.912" timestamp="1596436288763" />
+    <state width="1253" height="352" key="GridCell.Tab.1.bottom" timestamp="1596435767285">
+      <screen x="72" y="0" width="1296" height="912" />
+    </state>
+    <state width="1253" height="352" key="GridCell.Tab.1.bottom/72.0.1296.912@72.0.1296.912" timestamp="1596435767285" />
+    <state width="1253" height="352" key="GridCell.Tab.1.center" timestamp="1596435767285">
+      <screen x="72" y="0" width="1296" height="912" />
+    </state>
+    <state width="1253" height="352" key="GridCell.Tab.1.center/72.0.1296.912@72.0.1296.912" timestamp="1596435767285" />
+    <state width="1253" height="352" key="GridCell.Tab.1.left" timestamp="1596435767284">
+      <screen x="72" y="0" width="1296" height="912" />
+    </state>
+    <state width="1253" height="352" key="GridCell.Tab.1.left/72.0.1296.912@72.0.1296.912" timestamp="1596435767284" />
+    <state width="1253" height="352" key="GridCell.Tab.1.right" timestamp="1596435767285">
+      <screen x="72" y="0" width="1296" height="912" />
+    </state>
+    <state width="1253" height="352" key="GridCell.Tab.1.right/72.0.1296.912@72.0.1296.912" timestamp="1596435767285" />
+    <state x="251" y="111" key="Maven.ArtifactSearchDialog" timestamp="1596158654574">
+      <screen x="72" y="0" width="1296" height="912" />
+    </state>
+    <state x="251" y="111" key="Maven.ArtifactSearchDialog/72.0.1296.912@72.0.1296.912" timestamp="1596158654574" />
+    <state x="222" y="98" key="SettingsEditor" timestamp="1594861435559">
+      <screen x="72" y="0" width="1296" height="912" />
+    </state>
+    <state x="222" y="98" key="SettingsEditor/72.0.1296.912@72.0.1296.912" timestamp="1594861435559" />
+    <state x="404" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1596417133892">
+      <screen x="72" y="0" width="1296" height="912" />
+    </state>
+    <state x="404" y="280" key="com.intellij.ide.util.TipDialog/72.0.1296.912@72.0.1296.912" timestamp="1596417133892" />
+    <state x="86" y="66" key="new project wizard" timestamp="1594954603213">
+      <screen x="72" y="0" width="1296" height="912" />
+    </state>
+    <state x="86" y="66" key="new project wizard/72.0.1296.912@72.0.1296.912" timestamp="1594954603213" />
+    <state x="379" y="111" width="670" height="676" key="search.everywhere.popup" timestamp="1596160423389">
+      <screen x="72" y="0" width="1296" height="912" />
+    </state>
+    <state x="379" y="111" width="670" height="676" key="search.everywhere.popup/72.0.1296.912@72.0.1296.912" timestamp="1596160423389" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/smarthome/demo/deserizer/ObjectDeserializer.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/smarthome/demo/serizer/ObjectSerializer.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
