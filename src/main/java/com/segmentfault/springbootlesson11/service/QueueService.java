@@ -1,6 +1,6 @@
 package com.segmentfault.springbootlesson11.service;
 
-import com.segmentfault.springbootlesson11.Entity.Orders;
+import com.segmentfault.springbootlesson11.domain.Orders;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.scheduling.annotation.Async;

@@ -1,8 +1,9 @@
 package com.segmentfault.springbootlesson11.controller;
 
-import com.segmentfault.springbootlesson11.Entity.User;
+import com.segmentfault.springbootlesson11.domain.Orders;
+import com.segmentfault.springbootlesson11.service.KafkaService;
+import com.segmentfault.springbootlesson11.service.OrderMybatisService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -11,24 +12,25 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class KafKaController {
 
-    private final KafkaTemplate<String, Object> kafkaTemplate;
+    private final KafkaService kafkaService;
+    private final OrderMybatisService orderMybatisService;
 
     @Autowired
-    public KafKaController(KafkaTemplate kafkaTemplate) {
-        this.kafkaTemplate = kafkaTemplate;
+    public KafKaController(KafkaService kafkaService, OrderMybatisService orderMybatisService) {
+        this.kafkaService = kafkaService;
+        this.orderMybatisService = orderMybatisService;
     }
 
     @RequestMapping(value = "/message/send")
     public String sendMessage(@RequestParam String msg) {
-
-        kafkaTemplate.send("my-replicated-topic", msg);
-
+        kafkaService.sendMessage("my-replicated-topic",msg);
         return msg;
     }
 
     @PostMapping(value = "/user/save")
-    public User saveUser(@RequestBody User user) {
-        kafkaTemplate.send("users", user);
-        return user;
+    public Orders saveUser(@RequestBody Orders order) {
+
+        kafkaService.sendMessage("users", order);
+        return order;
     }
 }

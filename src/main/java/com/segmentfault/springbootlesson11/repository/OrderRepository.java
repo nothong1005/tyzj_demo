@@ -1,6 +1,6 @@
 package com.segmentfault.springbootlesson11.repository;
 
-import com.segmentfault.springbootlesson11.Entity.Orders;
+import com.segmentfault.springbootlesson11.domain.Orders;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

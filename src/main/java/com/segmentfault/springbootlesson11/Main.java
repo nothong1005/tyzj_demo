@@ -1,5 +1,8 @@
 package com.segmentfault.springbootlesson11;
 
+import org.apache.juli.logging.Log;
+import org.apache.juli.logging.LogFactory;
+
 import java.util.Collections;
 
 /**
@@ -11,17 +14,20 @@ public class Main {
         String[] fields = { "name", "position", "salary" };
         String table = "employee";
 
-        ///测试插入的代码
-//        String insert = buildInsertSql(table, fields);
-//        System.out.println(insert);
-//        String s = "INSERT INTO employee (name, position, salary) VALUES (?, ?, ?)";
-//        assert (s.equals(insert));
-//        System.out.println(s.equals(insert) ? "测试成功" : "测试失败");
+//        测试插入的代码
+        String insert = buildInsertSql(table, fields);
+        System.out.println(insert);
+        String s = "INSERT INTO employee (name, position, salary) VALUES (?, ?, ?)";
+
+        System.out.println(s.equals(insert) ? "测试成功" : "测试失败");
 
         String select = buildSelectSql(table, fields);
         System.out.println(select);
         System.out.println("SELECT name, position, salary FROM employee".equals(select) ? "测试成功" : "测试失败");
 
+        Log log = LogFactory.getLog(Main.class);
+
+        log.info("start");
     }
 
 

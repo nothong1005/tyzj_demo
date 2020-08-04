@@ -1,4 +1,4 @@
-package com.segmentfault.springbootlesson11.Entity;
+package com.segmentfault.springbootlesson11.domain;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

@@ -1,5 +1,6 @@
 package com.segmentfault.springbootlesson11.job;
 
+import com.segmentfault.springbootlesson11.service.OrderMybatisService;
 import com.segmentfault.springbootlesson11.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -10,14 +11,14 @@ import org.springframework.stereotype.Component;
 @Component
 public class UpdateOrderJob {
 
-    private OrderService orderService;
+    private OrderMybatisService orderMybatisService;
 
     @Autowired
-    public UpdateOrderJob(OrderService orderService) {
-        this.orderService = orderService;
+    public UpdateOrderJob(OrderMybatisService orderMybatisService) {
+        this.orderMybatisService = orderMybatisService;
     }
 
     public void execute() {
-        orderService.updateOrder();
+        orderMybatisService.updateOrder();
     }
 }

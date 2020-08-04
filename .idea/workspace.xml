@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b68f58c6-d5b7-4eb3-bd20-6536f6827d17" name="Default Changelist" comment="" />
+    <list default="true" id="b68f58c6-d5b7-4eb3-bd20-6536f6827d17" name="Default Changelist" comment="数据操作该为Mybatis">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/service/KafkaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/service/OrderMybatisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/Entity/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/domain/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/Entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/SpringBootLesson11Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/SpringBootLesson11Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/consumer/ConsumerListenerKafka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/consumer/ConsumerListenerKafka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/controller/KafKaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/controller/KafKaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/job/UpdateOrderJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/job/UpdateOrderJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/service/QueueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/segmentfault/springbootlesson11/service/QueueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/segmentfault/springbootlesson11/Entity/Orders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/segmentfault/springbootlesson11/Entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/segmentfault/springbootlesson11/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/segmentfault/springbootlesson11/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/segmentfault/springbootlesson11/SpringBootLesson11Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/segmentfault/springbootlesson11/SpringBootLesson11Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/segmentfault/springbootlesson11/consumer/ConsumerListenerKafka.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/segmentfault/springbootlesson11/consumer/ConsumerListenerKafka.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/segmentfault/springbootlesson11/controller/KafKaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/segmentfault/springbootlesson11/controller/KafKaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/segmentfault/springbootlesson11/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/segmentfault/springbootlesson11/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/segmentfault/springbootlesson11/job/UpdateOrderJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/segmentfault/springbootlesson11/job/UpdateOrderJob.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/segmentfault/springbootlesson11/repository/OrderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/segmentfault/springbootlesson11/repository/OrderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/segmentfault/springbootlesson11/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/segmentfault/springbootlesson11/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/segmentfault/springbootlesson11/service/QueueService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/segmentfault/springbootlesson11/service/QueueService.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +41,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -22,6 +57,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Zt37x6HHFgQG9eThO9vldmTPpx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,7 +72,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -50,10 +86,18 @@
       <recent name="com.segmentfault.springbootlesson11.Entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\工作资料\spring-boot-demo\src\main\java\com\segmentfault\springbootlesson11\domain" />
       <recent name="E:\工作资料\spring-boot-demo\src\main\java\com\segmentfault\springbootlesson11" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringBootLesson11Application">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.segmentfault.springbootlesson11.Main" />
       <module name="spring-boot-lesson-11" />
@@ -101,6 +145,29 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.014717907" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -125,70 +192,86 @@
       <workItem from="1595991255819" duration="3586000" />
       <workItem from="1596091656823" duration="4989000" />
       <workItem from="1596158437943" duration="2605000" />
-      <workItem from="1596416125475" duration="7068000" />
+      <workItem from="1596416125475" duration="13266000" />
+      <workItem from="1596520105562" duration="4384000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="474" y="18" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596160891671">
       <screen x="72" y="0" width="1296" height="912" />
     </state>
     <state x="474" y="18" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.0.1296.912@72.0.1296.912" timestamp="1596160891671" />
-    <state x="501" y="211" key="FileChooserDialogImpl" timestamp="1596417163377">
+    <state x="327" y="50" key="CommitChangelistDialog2" timestamp="1596523725863">
       <screen x="72" y="0" width="1296" height="912" />
     </state>
-    <state x="501" y="211" key="FileChooserDialogImpl/72.0.1296.912@72.0.1296.912" timestamp="1596417163377" />
-    <state width="1253" height="181" key="GridCell.Tab.0.bottom" timestamp="1596436288763">
+    <state x="327" y="50" key="CommitChangelistDialog2/72.0.1296.912@72.0.1296.912" timestamp="1596523725863" />
+    <state x="501" y="211" key="FileChooserDialogImpl" timestamp="1596519985287">
       <screen x="72" y="0" width="1296" height="912" />
     </state>
-    <state width="1253" height="181" key="GridCell.Tab.0.bottom/72.0.1296.912@72.0.1296.912" timestamp="1596436288763" />
-    <state width="1253" height="181" key="GridCell.Tab.0.center" timestamp="1596436288763">
+    <state x="501" y="211" key="FileChooserDialogImpl/72.0.1296.912@72.0.1296.912" timestamp="1596519985287" />
+    <state width="1205" height="312" key="GridCell.Tab.0.bottom" timestamp="1596524100436">
       <screen x="72" y="0" width="1296" height="912" />
     </state>
-    <state width="1253" height="181" key="GridCell.Tab.0.center/72.0.1296.912@72.0.1296.912" timestamp="1596436288763" />
-    <state width="1253" height="181" key="GridCell.Tab.0.left" timestamp="1596436288763">
+    <state width="1205" height="312" key="GridCell.Tab.0.bottom/72.0.1296.912@72.0.1296.912" timestamp="1596524100436" />
+    <state width="1205" height="312" key="GridCell.Tab.0.center" timestamp="1596524100436">
       <screen x="72" y="0" width="1296" height="912" />
     </state>
-    <state width="1253" height="181" key="GridCell.Tab.0.left/72.0.1296.912@72.0.1296.912" timestamp="1596436288763" />
-    <state width="1253" height="181" key="GridCell.Tab.0.right" timestamp="1596436288763">
+    <state width="1205" height="312" key="GridCell.Tab.0.center/72.0.1296.912@72.0.1296.912" timestamp="1596524100436" />
+    <state width="1205" height="312" key="GridCell.Tab.0.left" timestamp="1596524100436">
       <screen x="72" y="0" width="1296" height="912" />
     </state>
-    <state width="1253" height="181" key="GridCell.Tab.0.right/72.0.1296.912@72.0.1296.912" timestamp="1596436288763" />
-    <state width="1253" height="352" key="GridCell.Tab.1.bottom" timestamp="1596435767285">
+    <state width="1205" height="312" key="GridCell.Tab.0.left/72.0.1296.912@72.0.1296.912" timestamp="1596524100436" />
+    <state width="1205" height="312" key="GridCell.Tab.0.right" timestamp="1596524100436">
       <screen x="72" y="0" width="1296" height="912" />
     </state>
-    <state width="1253" height="352" key="GridCell.Tab.1.bottom/72.0.1296.912@72.0.1296.912" timestamp="1596435767285" />
-    <state width="1253" height="352" key="GridCell.Tab.1.center" timestamp="1596435767285">
+    <state width="1205" height="312" key="GridCell.Tab.0.right/72.0.1296.912@72.0.1296.912" timestamp="1596524100436" />
+    <state width="1205" height="312" key="GridCell.Tab.1.bottom" timestamp="1596524100436">
       <screen x="72" y="0" width="1296" height="912" />
     </state>
-    <state width="1253" height="352" key="GridCell.Tab.1.center/72.0.1296.912@72.0.1296.912" timestamp="1596435767285" />
-    <state width="1253" height="352" key="GridCell.Tab.1.left" timestamp="1596435767284">
+    <state width="1205" height="312" key="GridCell.Tab.1.bottom/72.0.1296.912@72.0.1296.912" timestamp="1596524100436" />
+    <state width="1205" height="312" key="GridCell.Tab.1.center" timestamp="1596524100436">
       <screen x="72" y="0" width="1296" height="912" />
     </state>
-    <state width="1253" height="352" key="GridCell.Tab.1.left/72.0.1296.912@72.0.1296.912" timestamp="1596435767284" />
-    <state width="1253" height="352" key="GridCell.Tab.1.right" timestamp="1596435767285">
+    <state width="1205" height="312" key="GridCell.Tab.1.center/72.0.1296.912@72.0.1296.912" timestamp="1596524100436" />
+    <state width="1205" height="312" key="GridCell.Tab.1.left" timestamp="1596524100436">
       <screen x="72" y="0" width="1296" height="912" />
     </state>
-    <state width="1253" height="352" key="GridCell.Tab.1.right/72.0.1296.912@72.0.1296.912" timestamp="1596435767285" />
+    <state width="1205" height="312" key="GridCell.Tab.1.left/72.0.1296.912@72.0.1296.912" timestamp="1596524100436" />
+    <state width="1205" height="312" key="GridCell.Tab.1.right" timestamp="1596524100436">
+      <screen x="72" y="0" width="1296" height="912" />
+    </state>
+    <state width="1205" height="312" key="GridCell.Tab.1.right/72.0.1296.912@72.0.1296.912" timestamp="1596524100436" />
     <state x="251" y="111" key="Maven.ArtifactSearchDialog" timestamp="1596158654574">
       <screen x="72" y="0" width="1296" height="912" />
     </state>
     <state x="251" y="111" key="Maven.ArtifactSearchDialog/72.0.1296.912@72.0.1296.912" timestamp="1596158654574" />
-    <state x="222" y="98" key="SettingsEditor" timestamp="1594861435559">
+    <state x="222" y="98" key="SettingsEditor" timestamp="1596504118807">
       <screen x="72" y="0" width="1296" height="912" />
     </state>
-    <state x="222" y="98" key="SettingsEditor/72.0.1296.912@72.0.1296.912" timestamp="1594861435559" />
+    <state x="222" y="98" key="SettingsEditor/72.0.1296.912@72.0.1296.912" timestamp="1596504118807" />
     <state x="404" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1596417133892">
       <screen x="72" y="0" width="1296" height="912" />
     </state>
     <state x="404" y="280" key="com.intellij.ide.util.TipDialog/72.0.1296.912@72.0.1296.912" timestamp="1596417133892" />
+    <state x="330" y="155" width="779" height="600" key="find.popup" timestamp="1596523964623">
+      <screen x="72" y="0" width="1296" height="912" />
+    </state>
+    <state x="330" y="155" width="779" height="600" key="find.popup/72.0.1296.912@72.0.1296.912" timestamp="1596523964623" />
     <state x="86" y="66" key="new project wizard" timestamp="1594954603213">
       <screen x="72" y="0" width="1296" height="912" />
     </state>
     <state x="86" y="66" key="new project wizard/72.0.1296.912@72.0.1296.912" timestamp="1594954603213" />
+    <state x="424" y="83" key="refactoring.ChangeSignatureDialog" timestamp="1596522717004">
+      <screen x="72" y="0" width="1296" height="912" />
+    </state>
+    <state x="424" y="83" key="refactoring.ChangeSignatureDialog/72.0.1296.912@72.0.1296.912" timestamp="1596522717004" />
     <state x="379" y="111" width="670" height="676" key="search.everywhere.popup" timestamp="1596160423389">
       <screen x="72" y="0" width="1296" height="912" />
     </state>

@@ -1,8 +1,9 @@
 package com.segmentfault.springbootlesson11.controller;
 
 
-import com.segmentfault.springbootlesson11.Entity.Orders;
+import com.segmentfault.springbootlesson11.domain.Orders;
 import com.segmentfault.springbootlesson11.repository.OrderRepository;
+import com.segmentfault.springbootlesson11.service.OrderMybatisService;
 import com.segmentfault.springbootlesson11.service.QueueService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
@@ -26,17 +27,17 @@ public class OrderController {
 
 
     private final QueueService queueService;
-    private final OrderRepository orderRepository;
+    private final OrderMybatisService orderMybatisService;
 
     @Autowired
-    public OrderController(QueueService queueService, OrderRepository orderRepository) {
+    public OrderController(QueueService queueService, OrderMybatisService orderMybatisService) {
         this.queueService = queueService;
-        this.orderRepository = orderRepository;
+        this.orderMybatisService = orderMybatisService;
     }
 
     @RequestMapping(value = "/order/add", method = RequestMethod.POST)
     @ApiOperation("增加一个订单信息")
-    @ApiImplicitParam(name = "order", value = "新增用户信息", required = true)
+    @ApiImplicitParam(name = "order", value = "新增订单信息", required = true)
     public Orders addOrder(@RequestBody Orders order) {
 
         System.out.println("hhhh"+order.toString());
@@ -64,7 +65,7 @@ public class OrderController {
     @RequestMapping(value = "/orders", method = RequestMethod.GET)
     @ApiOperation("获得所有的订单")
     public List<Orders> getOrders() {
-        return orderRepository.findAll();
+        return orderMybatisService.getAll();
     }
 
 }

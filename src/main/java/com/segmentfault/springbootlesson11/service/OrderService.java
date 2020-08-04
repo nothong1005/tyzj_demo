@@ -1,7 +1,7 @@
 package com.segmentfault.springbootlesson11.service;
 
 
-import com.segmentfault.springbootlesson11.Entity.Orders;
+import com.segmentfault.springbootlesson11.domain.Orders;
 import com.segmentfault.springbootlesson11.repository.OrderRepository;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.segmentfault.springbootlesson11.Entity;
+package com.segmentfault.springbootlesson11.domain;
 
 import java.io.Serializable;
 
